@@ -1,0 +1,6 @@
+services:
+  - type: pserv
+    name: mobile-bot-api
+    runtime: python
+    buildCommand: ""
+    startCommand: gunicorn app:app
